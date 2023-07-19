@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: helloworld-deep
-          image: asia.gcr.io/poc-innovation-iot/helloworld-deep
+          image: asia.gcr.io/poc-innovation-iot/gitlab-runner-example-deep
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
