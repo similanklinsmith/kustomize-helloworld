@@ -1,0 +1,10 @@
+docker build -t helloworld .    
+docker tag helloworld asia.gcr.io/poc-innovation-iot/helloworld
+docker push asia.gcr.io/poc-innovation-iot/helloworld 
+
+connect to Cluster
+
+kubectl create namespace ice 
+
+kubectl exec -it turbo-nginx-5b89ff96-wk974 -n turbo-poc  bash      
+curl --location --request GET 'http://helloworld.ice:8080/'
