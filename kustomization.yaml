@@ -7,4 +7,4 @@ resources:
 namespace: deep-training
 images:
 - name: asia.gcr.io/poc-innovation-iot/gitlab-runner-example-deep
-  newTag: a2e23bdb
+  newTag: 5a81530c
