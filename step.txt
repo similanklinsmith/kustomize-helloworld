@@ -15,3 +15,4 @@ kubectl exec -it turbo-nginx-5b89ff96-wk974 -n turbo-poc  bash
 curl --location --request GET 'http://helloworld.ice:8080/'
 
 
+
