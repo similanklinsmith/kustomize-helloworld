@@ -6,7 +6,7 @@ docker tag hellodeep asia.gcr.io/poc-innovation-iot/helloworld-deep
 docker push asia.gcr.io/poc-innovation-iot/helloworld-deep 
 
 --connect to Cluster--
-- go to cluster
+- go to CLUSTER
 - copy connect of cluster and run
 
 kubectl create namespace deep 
