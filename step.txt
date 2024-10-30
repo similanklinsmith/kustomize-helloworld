@@ -1,4 +1,4 @@
---tag hellodeep--
+--tag HELLODEEP--
 docker build -t hellodeep .    
 
 --create image and push to container registry--
